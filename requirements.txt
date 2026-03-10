@@ -1,0 +1,32 @@
+# PyTorch and related libraries
+# For CUDA support (GPU acceleration), install PyTorch with CUDA:
+# Visit https://pytorch.org/get-started/locally/ for the latest installation command
+# 
+# For CUDA 11.8:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+#
+# For CUDA 12.1:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+#
+# For CPU only (no GPU) - installs latest versions:
+torch
+torchvision
+torchaudio
+
+# Data manipulation and analysis
+numpy
+pandas
+
+# Machine Learning utilities
+scikit-learn
+
+# Model visualization and summary
+torchinfo
+
+# Jupyter notebook support
+jupyter
+ipykernel
+notebook
+
+# Additional utilities
+matplotlib
